@@ -10,18 +10,18 @@ default: &default
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   #username: <%= ENV['POSTGRES_USER'] %>
   #username: userpostgres
-  username: necupqjdizkypt
+  username: ftheytkamdjwbh
   #password: <%= ENV['POSTGRES_PASSWORD'] %>
   #password: 1qazsxdr5
-  password: 0f41bc0a86c43f7f0514230fb5f4b68bb622be096c07f8645b1f27f55bd32afe
+  password: f2979af43b26189eda646a43127d3a0982e15045ce5fe39e1d98ac5438617977
 #  host: <%= ENV['POSTGRES_HOST'] %>
-  host: ec2-18-204-232-57.compute-1.amazonaws.com
+  host: ec2-52-45-75-24.compute-1.amazonaws.com
   timeout: 5000
 
 development:
   <<: *default
 #  database: db/development.sqlite3
-  database: db/dc3cbihq8jqrj0
+  database: de95ehi7gpa027
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
