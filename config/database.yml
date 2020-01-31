@@ -9,11 +9,13 @@ default: &default
   adapter: postgresql
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   #username: <%= ENV['POSTGRES_USER'] %>
-  username: userpostgres
+  #username: userpostgres
+  username: ftheytkamdjwbh
   #password: <%= ENV['POSTGRES_PASSWORD'] %>
-  password: 1qazsxdr5
+  #password: 1qazsxdr5
+  password: f2979af43b26189eda646a43127d3a0982e15045ce5fe39e1d98ac5438617977
 #  host: <%= ENV['POSTGRES_HOST'] %>
-#  host: localhost
+  host: ec2-52-45-75-24.compute-1.amazonaws.com
   timeout: 5000
 
 development:
