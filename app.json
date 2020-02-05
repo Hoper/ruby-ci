@@ -1,14 +1,3 @@
-#{
-#  "environments": {
-#    "test": {
-#      "scripts": {
-#        "test-setup": "gem install rubocop",
-#        "test": "rubocop ."
-#      }
-#    }
-#  }
-#
-#}
 {
   "environments": {
     "test": {
