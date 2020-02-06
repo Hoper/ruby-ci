@@ -1,9 +1,13 @@
 {
-  "environments": {
-    "test": {
-      "addons":[
-         "heroku-postgresql"
-      ]
-    }
-  }
+  "name": "App on Ruby + Rails",
+  "description": "This test apps app ",
+  "keywords": [
+    "productivity",
+    "RUBY + Rails + PG",
+    "scalpel"
+  ],
+
+  "website": "https://test-ruby-app.com/",
+  "repository": "https://github.com/DenisPlastinin/ruby-ci.git",
+  "success_url": "/articles"
 }
