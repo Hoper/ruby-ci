@@ -1,8 +1,7 @@
 addons:
   sonarcloud:
-    organization: denisplastinin
-    token:
-        secure: "$SONAR_TOKEN"
+    organization: "denisplastinin"
+    token: ${SONAR_TOKEN}
         
 script:
     - sonar-scanner
