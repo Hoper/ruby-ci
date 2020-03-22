@@ -1,0 +1,7 @@
+addons:
+  sonarcloud:
+    organization: "denisplastinin"
+    token: ${SONAR_TOKEN}
+        
+script:
+    - sonar-scanner
