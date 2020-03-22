@@ -4,4 +4,4 @@ addons:
     token: ${SONAR_TOKEN}
         
 script:
-    - sonar-scanner -X
+    - sonar-scanner
